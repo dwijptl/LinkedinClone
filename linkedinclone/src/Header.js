@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className="header">
       <div className="header__left">
-        <img src='https://www.svgrepo.com/show/75820/linkedin.svg' alt=""></img>
+        <img src="https://www.svgrepo.com/show/75820/linkedin.svg" alt=""></img>
 
         <div className="header__search">
           <SearchIcon />
