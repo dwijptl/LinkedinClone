@@ -7,14 +7,14 @@ import ChatOutlinedIcon from '@mui/icons-material/ChatOutlined';
 import ShareOutlinedIcon from '@mui/icons-material/ShareOutlined';
 import SendOutlinedIcon from '@mui/icons-material/SendOutlined';
 
-function Post({ name, descriptionn, message, photoUrl }) {
+function Post({ name, description, message, photoUrl }) {
   return (
     <div className="post">
       <div className="post__header">
         <Avatar />
         <div className="post__info">
           <h2>{name}</h2>
-          <p>{descriptionn}</p>
+          <p>{description}</p>
         </div>
       </div>
       <div className="post__body">
